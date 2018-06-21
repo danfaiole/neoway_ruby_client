@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.neoway.com.br/auth/token/check
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.4.1p111
+      Authorization:
+      - Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBsaWNhdGlvbklkIjoibWVyY2F0b3Jpby1hcHAiLCJjbGllbnRJZCI6IjkzMzQiLCJleHAiOjE1Mjk1Mjk4Nzd9.k_Pzu9Ci4gsgRBOd7be4L-oPmSk00wnITM8Y_letMR0
+      Host:
+      - api.neoway.com.br
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jun 2018 20:54:35 GMT
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Referrer-Policy:
+      - no-referrer
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 20 Jun 2018 20:54:38 GMT
+recorded_with: VCR 4.0.0

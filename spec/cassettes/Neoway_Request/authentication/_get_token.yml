@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.neoway.com.br/auth/token
+    body:
+      encoding: UTF-8
+      string: '{"application":"test","application_secret":"test-password"}'
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.4.1p111
+      Content-Length:
+      - '66'
+      Host:
+      - api.neoway.com.br
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Jun 2018 20:54:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '186'
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Referrer-Policy:
+      - no-referrer
+    body:
+      encoding: UTF-8
+      string: '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBsaWNhdGlvbklkIjoibWVyY2F0b3Jpby1hcHAiLCJjbGllbnRJZCI6IjkzMzQiLCJleHAiOjE1Mjk1Mjk4Nzd9.k_Pzu9Ci4gsgRBOd7be4L-oPmSk00wnITM8Y_letMR0"}
+
+'
+    http_version:
+  recorded_at: Wed, 20 Jun 2018 20:54:37 GMT
+recorded_with: VCR 4.0.0
