@@ -8,7 +8,7 @@ Note that this gem only provides shortcuts.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'neoway-ruby'
+gem 'neoway'
 ```
 
 Execute:
@@ -17,7 +17,7 @@ Execute:
 
 Or install it yourself as:
 
-    $ gem install neoway-ruby
+    $ gem install neoway
 
 It's important to set the variables in some config file or it'll raise an error.(In case of Rails apps, you can use application.rb or some env file.)
 
